@@ -6,7 +6,7 @@ import MenuToggler from '../SideDrawer/MenuToggler/MenuToggler'
 
 const toolbar = (props) => (
     <header className = {classes.Toolbar}>
-        <MenuToggler 
+        <MenuToggler
             menuClicked = {props.menuClicked}
             open = {props.open}
             />

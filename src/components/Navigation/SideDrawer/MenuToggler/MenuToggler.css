@@ -28,4 +28,10 @@
 .MenuToggler span:nth-child(3) {
     top: 20px;
 }
-  
+
+
+@media (min-width: 499px){
+    .MenuToggler{
+        display: none;
+    }
+}
